@@ -9,50 +9,50 @@
                     <if test="silly()">Bad touch, bad touch!</if>
                 </text>
                 <text name="miss">
-                    Diva suddenly dives and attempt to closes her wings and arms on you but you're faster than her and swiftly evade the grapple.
+                    Diva suddenly dives and attempts to closes her wings and arms on you. Unfortunately for her, you manage to evade her attack!
                 </text>
             </lib>
             <text name="bite">
-                Diva bites into your neck and begins drinking her fill. The rather loud slurping noises she makes kind of ruin the mood, though. Weirdly enough you feel aroused from this despite the pain.
+                Diva bites into your neck and begins drinking her fill. Even though this causes you great pain, and the slurping noise she makes ruins the mood, you can't help but feel somewhat aroused.
                 <if test="silly()">You masochist, you.</if>
             </text>
             <text name="biteGargoyle">
-                Diva tries to bite you but quickly step back holding a hand to her mouth with a surprised yelp of clear pain. You smirk amused... did she seriously try to bite in your stone skin?
+                Diva tries to bite you but quickly steps back, holding a hand to her mouth with a surprised yelp of clear pain. You smirk amused. That's what she gets trying to bite into solid stone!
             </text>
             <text name="bitePlant">
                 Diva tries to bite you but just as her fang pierce her skin she shove you off and start spitting.
 
 				<i>
-                    “Puaaah what the hell did I taste just now! Your blood taste like saps and flower nectar. How disgusting!”
+                    “Puaaah! What the hell did I taste just taste! Your blood taste like tree sap and flower nectar. How disgusting!”
 
                 </i>
-                Well now you're kind of offended by her reaction... guess plant sap really tastes bad for her.
+                Well now you're somewhat offended by her reaction... guess plant sap really tastes bad for her.
             </text>
             <text name="swoopToss">
                 Diva makes a pass bare inches above your head, using her momentum to snatch
                 <if test="$final">
                     and toss you across the room and into an intimate reunion between your face and the wall.
-                    <else>you only to drop you from higher height.</else>
+                    <else>you only to drop you from an even higher height.</else>
                 </if>
             </text>
             <lib name="darkness">
                 <text name="cast">
                     <i>
-                        “Let us see how thou fight without this precious light of yours!”
+                        “Let us see how thou shall fight without this precious light of yours!”
 
                     </i>
                     Diva lands, opening her wings wide as a pair of black orbs form at her fingertips.
-                    She shatter them on the ground plunging the room in complete darkness and extinguishing all light.
+                    She shatters them on the ground, causing them to leak black gas everywhere, plunging the room in complete darkness and extinguishing all light.
                     You will be unable to locate her correctly without a proper visual.
                 </text>
                 <text name="dispell">
-                    the room light back as the flame dispels the shadow.
+                    The room lights back up as the flame dispels the shadow.
                 </text>
             </lib>
             <text name="sonicScream">
                 <if test="$final">
-                    Diva suddenly lets out an agonising screech which echoes through the entire room, shattering all the glass along it’s path and forcing you to reflexively try to cover your ears with your hands, dropping your weapons in the process and still staggering you despite your efforts.
-                    The scream is so powerful that, in addition to damaging your eardrums and fucking your balance something fierce, it also bodily throws you into a nearby wall.
+                    Diva suddenly lets out an agonizing screech which echoes through the entire room, shattering all the glass along it’s path and forcing you to reflexively try to cover your ears with your hands, dropping your weapons in the process and still staggering you despite your efforts.
+                    The scream is so powerful that, in addition to damaging your eardrums and fucking up your balance something fierce, it also forcibly throws you into a nearby wall.
                     At least you didn’t wind up impaled on some weapon’s rack, that would be plain embarrassing.
                     <else>
                         Diva gets what look like a conical item out of her bag and suddenly lets out an agonising screech which echoes through the entire room, forcing you to reflexively try to cover your ears with your hands, dropping your weapons in the process and still staggering you despite your efforts.
@@ -62,13 +62,13 @@
         </lib>
         <lib name="scenes">
             <text name="blinded">
-                Diva recoils in pain as the bright light strike her like a hammer, temporarily pinning her to the ground and stunning her.
+                Diva recoils in pain as the bright light strikes her like a hammer, temporarily pinning her to the ground and stunning her.
             </text>
             <lib name="intro">
                 <text name="first">
                     You are taking a walk through the mountain area when, much to your annoyance, a thunderstorm begins.
                     However unlike the ones you hear of back home... This thunderstorm has no rain.. peculiar.
-                    Ever since you shut down the factory the weather has been erratic switching from clear to a full fledged thunderstorm randomly.
+                    Ever since you shut down the factory the weather has been erratic, switching from clear to a full fledged thunderstorm seemingly at random.
                     Deciding not to head back to camp yet, more out of spite than anything else, you seek shelter instead.
                     Your efforts are rewarded when you spot a large abandoned castle atop a particularly steep hill.
                     Thankfully, it’s not so steep as to require climbing, since the regular lightning bolt would have made that a rather dangerous task what with the risk of a rocky avalanche!
@@ -103,25 +103,25 @@
                 </text>
                 <text name="second">
                     It doesn’t take long before a thunderstorm, yet again, begins.
-                    If anyone had told you shutting down the factory would fuck up the weather this much, you would have had second thoughts before taking a wrench to that contol panel.
-                    Granted, you would probably have done so anyways, that fucking hellhole deserved no less.
-                    Anyhow, knowing the drill already, you march your ass back to Diva’s castle.
-                    No sooner you enter that you can already feel movement on the edges of your peripheral vision.
+                    If anyone had told you shutting down the factory would fuck up the weather this badly, you would have had second thoughts before taking a wrench to that control panel.
+                    Granted, you would probably have done so anyways, that desolate hellhole deserved no less.
+                    Having done this before already, you march your ass back to Diva’s castle.
+                    Almost as soon as you step inside, you can see movement on the edges of your peripheral vision.
                     Diva is already stalking you, it seems.
                     For one so arrogant and attention hungry, she sure is good at stealth.
                     However, as you expected, the power of drama compels her, so she won’t be showing up until you get somewhere suitable for a dramatic fight.
                     You steel your resolve and push down your exasperation as you decide to just bite the bullet and head to the ball room already, otherwise she will just keep staring at your back from shadowed corners like a lovestruck, socially awkward village girl for hours on end.
                     <if test="silly()">Huh, you might be onto something. Is this that “chuunibyou” thing the mechanic at the factory kept raving on about? He also said something about “Senpais” noticing things and some creature called “tsundere”.</if>
 
-                    Just as you get inside, a triggering mechanism makes itself known, as the doors lock themselves with a click.
-                    Huh, she got up to some tinkering between visits, it seems. Neat.
+                    Just as you get inside, a triggering mechanism makes itself known, as the doors lock themselves behind you with a click.
+                    Huh, she got up to some tinkering between visits, it seems. Now there's no way out. Isn't that great.
                     You might ask her about how she pulled off that automatic lock trick after you finish the fight <if test="$cabinBuilt">, would be nice to have in your cabin</if>.
                     Diva, unwitting of your musings, appears in a cloud of smoke at the center of the room.
-                    special effects, too. You would give a polite clap if you didn’t know she would bitch at you for breaking the mood.
+                    Special effects, too. You would give a polite clap if you didn’t know she would bitch at you for breaking the mood.
 
                     <i>
                         “Fufufu... thine foolishness knows no bounds, coming yet again to try and defeat the almighty Countess of Dusk.
-                        Dost thou not comprehend such thing is an exercise in futility?
+                        Dost thou not comprehend such a thing is an exercise in futility?
                         No matter, I shall vanquish thee once again and take thy blood and body as mine, hero!
                         Prepare for thy demise!”
 
@@ -136,16 +136,16 @@
                     Not doing anything particularly distasteful to you when she defeated you for the first time certainly won her some points with you.
                     Also, you don’t begrudge having a good sparring partner, it’s nice having someone strong to practice against without any real risks should you lose.
 
-                    Since there's no storm, Diva can’t really sneak around as easily, since there is no thunder to drown out the sound of her movement, so for once you will have to find her yourself.
+                    Since there's no storm, Diva can’t really sneak around as easily, as there is no thunder to drown out the sound of her movement, so for once you will have to find her yourself.
                     It takes you about three seconds to guess that she will probably be cooped up in the highest tower of the castle.
-                    The boarded windows are a bit of a give away, to be honest.
+                    The boarded up windows are a bit of a give away, to be honest.
                     Now the question is whether she will be sleeping or waiting for you while sitting in the single gaudiest chair on the whole castle.
-                    You eventually reach a room approaching whose gaudiness is nearing critical mass, everything is covered in red and gold, the drapes, the carpet, the coffin and even the fuckhuge throne Diva is sitting in.
+                    You eventually reach a room approaching whose gaudiness is nearing critical mass, everything is covered in red and gold: the drapes, the carpet, the coffin and even the exceptionally huge throne Diva is sitting in.
                     Unsurprisingly, your guess was right.
                     What you didn’t expect, however is the deer-in-headlights look she is giving you.
-                    In that very moment you decide that you are going to learn, or make from scratch if you must, a spell to turn memories into pictures, then fucking frame this moment in the gaudiest frame you find in the castle.
+                    In that very moment you decide that you are going to learn, or make from scratch if you must, a spell to turn memories into pictures, then frame this moment in the gaudiest frame you find in the castle.
 
-                    <i>“Aaaah...so the prey fancies itself a vampire hunter and dares come up to my very lair to slay me?! Thou shalt be found wanting for I will not go down easily! Prepare thyself, I shall not hold back this time!”</i>
+                    <i>“Aaaah...so the prey fancies itself a vampire hunter and dares come up to my very lair to slay me?! Thou shalt be found wanting for I will not go down easily! Prepare thyself, for I shall not hold back this time!”</i>
 
                     And the drama queen fancies herself a dungeon boss, doesn’t she? Seems like either she just keeps away from the sun due to the power of drama compelling her or she is more powerful than you initially thought.
 
@@ -154,8 +154,7 @@
                     She, in what you assume she thinks is an elegant way, throws a glass cup filled with what’s probably blood to the ground as she takes flight, in as much as she can while indoors, high ceilings or not.
                     Aaaaaaand she has gotten herself a battle aura of darkness, of course she has.
                     <if test="silly()">Such is life in the zon- Mareth.</if>
-                    But seriously, she is clearly stronger now.
-                    Well, it seems she is not holding back this time around.
+                    But seriously, she is clearly stronger this time around, and won't hold anything back!
                 </text>
             </lib>
             <lib name="defeated">
@@ -165,9 +164,9 @@
 
                     </i>
 
-                    Is she for real... Does she really think this all was an elaborate play with her as the main character of some romance story?
+                    Is she serious? Does she really think this all was an elaborate play with her as the main character of some romance story?
 
-                    She take on an annoyed expression then declares <i>“Cough cough... ahem..Oh how terrible, I the almighty queen of darkness lost to the hero what will happen of me will thy hero rape me and make me his bride by force or will I be left alone in this castle as he/she goes on for a new quest.“
+                    She adopts an annoyed expression then declares <i>“Cough cough... ahem.. Oh how terrible, I, the almighty queen of darkness, lost to the hero! What will happen of me? Will thy hero rape me and make me his bride by force or will I be left alone in this castle as he/she goes upon a new quest?“
 
                 </i>
 
@@ -187,9 +186,9 @@
                 <text name="combatGargPlant">
                     You fall to the ground unable to fight further as Diva declare.
 
-                    <i>“Look I will be honest with thee thou are completely inedible! Do me a favor and get out. I’m not interested into something I can’t drink from.”</i>
+                    <i>“I shall be honest with thee. Thou art completely inedible! Do me a favor and get out. I’m not interested into something I can’t drink from.”</i>
 
-                    Well you can’t believe your luck guess you might as well get going.
+                    Well you can’t believe your luck, so you might as well get going.
                 </text>
 				<lib name="final">
                     <text name="intro">
@@ -206,8 +205,8 @@
                     </text>
                     <text name="yesChoice">
                         She's a good girl, despite her excessive love for acting.
-                        You decide to bring her with you back to camp declaring your love for her.
-                        Diva nods and, still blushing, she gathers a few important item namely a tent and her coffin.
+                        You decide to bring her with you back to camp after declaring your love for her.
+                        Diva nods and, still blushing, she gathers a few important items, most noticably a tent and her coffin.
                         You ask her why she's so keen on bringing a coffin with her anyway, can’t she just sleep in a bedroll like everyone else?
 
                         <i>
@@ -270,7 +269,7 @@
         </lib>
         <lib name="campInteraction">
             <text name="dusk">
-                Diva is belting a few bottles as she ready up for tonight hunt.
+                Diva is belting a few bottles as she readies up for tonight's hunt.
                 She notice you by the sound you make before you reach her.
 
                 <i>“Oh hello [name] thou aren’t going to sleep or can’t go to bed yet?”</i>
@@ -279,8 +278,8 @@
                 Diva hears your call and flies back to you in a heartbeat.
 
                 <i>
-                    “The sun is out it's time to fly out.
-                    What about thou [name] would you like to hunt with me or are thou interested into something else?”
+                    “The sun is out, and it has become the perfect time to hunt.
+                    Would thou like to hunt with the likes of me or does thou have business elsewhere?”
                 </i>
             </text>
         </lib>
@@ -292,7 +291,7 @@
                 <lib name="intro">
                     <text name="camp">
                         The both of you head back to her castle for a more comfortable bedroom.
-                        Once you are sitting on the bed,you two enjoy some idle chat before moving on as Diva close her wings around you in an almost possessive way and bites your neck.
+                        Once you are sitting on the bed, you two enjoy some idle chat before moving on as Diva closes her wings around you in an almost possessive gesture and bites your neck.
                         Her bite is as pleasurable as ever and you feel at peace with letting her drink your blood.
                         You're not the only one aroused as the vampire clearly seems to also get off on this, looking reder by the second.
                         Diva breaks the embrace, her face red as a tomato as her hand slowly move downward.
@@ -302,7 +301,7 @@
 
                         <i>“Thou have lost, therefore thou have to surrender to me both heart and body. Thy shall pay the blood price first.”</i>
 
-                        Diva close her wings and wrap her arms around you in an almost maternal way, you can feel her E cup breasts press gently against your chest, the temperature between you increasing steadily as she bite in your neck.
+                        Diva close her wings and wrap her arms around you in an almost maternal way, you can feel her E cup breasts press gently against your chest, the temperature between you increasing steadily as she bites your neck.
                         Her kiss is oddly pleasurable, like a warm bath after a rough day of work and you somehow feel at peace with letting the vampire drink on your blood.
                         You're not the only one aroused however as the pale woman cheeks redden and her eyes droop in a fawning deep love expression.
                         Diva break the embrace, her cheeks as red as the blood that she took, as her hand slowly moves downward.
@@ -326,7 +325,7 @@
                 </lib>
                 <lib name="male">
                     <text name="regular">
-                        Diva slowly start to cup your [balls] then move down to take care of your now raging erection.
+                        Diva slowly starts to cup your [balls] then moves down to take care of your now raging erection.
                         She start by spitting on your [cock] and stroking it with her hand to properly lube it.
                         You moan as she engulf your tip one of her canine running along your length.
                         She take great care not to bite your cock as she prepares it for later.
@@ -337,12 +336,12 @@
 
                         <if test="$combat">
                             <i>“Thou get to taste my second mouth, so thou should feel honored. It's more than you deserve.”</i>
-                            <else><i>“Your neck taste good [name] but I will need more than that to be satisfied.”</i></else>
+                            <else><i>“Your neck tastes good [name] but I will need more than that to be satisfied.”</i></else>
                         </if>
 
                         Diva slowly slide down on your slick [cock], giving you a fanged smile of bliss as she slowly takes your length in.
-                        She feels similar to what you think a succubus would and her pussy clearly has something inhuman about it.
-                        She’s now riding you, wings closed around your torso, arms and around your shoulders, as she milks your [cock] thoroughly.
+                        She feels similar to the succubuses of the land, especially since her pussy clearly has something inhuman about it.
+                        She’s now riding you, wings closed around your torso, and her arms around your shoulders, as she milks your [cock] thoroughly.
                         You moan in pleasure as the vampire bites your neck in the middle of the act only making you more erect and ready, your [cock] harder than ever.
                         She unplug her mouth if only for a moment just to whisper in your ears.
 
@@ -352,14 +351,14 @@
                         Unable to hold any longer, you flood her pussy with your cum
                         <if test="player.cumQ() ge 20">the excess dripping back to the ground </if>,
                         orgasming from both your neck and madly twitching cock.
-                        It continue for several hours until sun begins to rise at which point Divah bids you farewell.
+                        It continue for several hours until sun begins to rise at which point Diva bids you farewell.
                     </text>
                     <text name="tooBig">
                         Diva sees the size of your already erect [cock] and sigh in annoyance.
 
                         <i>“This thing is unsightly. I think thou will almost thank me for what I will do now.”</i>
 
-                        Diva force you to the ground and you scream as she literally bite your cock!
+                        Diva forces you to the ground. You involuntarily scream from the pain as she literally bites your cock!
                         The sharp pain is only temporary however and as blood flow out of your dick you begin to moan from the pleasure forced unto your cock by some sort of aphrodisiac contained in her saliva.
                         You watch stunned both by horror and pleasure as your dick progressively decrease in size down to a more common 18 inch.
 
